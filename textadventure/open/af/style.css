@@ -1,0 +1,56 @@
+html, body {
+		width: 100%
+		height: 100%;
+}
+body {
+	background-image: url(talesback.png);
+	width:100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.h1 {
+	text-align: center;
+	font:italic small-caps bold 24pt Garamond, Georgia, Times, Serif;width:200px;
+}
+.p {
+	font-size: 14pt
+	font:verdana, sans-serif;
+
+}
+
+.box1 {
+	background-color: white;
+	opacity: 80%;
+	width: 70%;
+	height:30%;
+}
+
+.box2 {
+	background-color: #F8471F;
+	opacity: 80%;
+	width: 70%;
+	height:30%;
+
+}
+.box3 {
+	background-color: #FBC928;
+	opacity: 80%;
+	width: 70%;
+	height:30%;
+
+}
+.box4 {
+	background-color: #78C151;
+	opacity: 80%;
+	width: 70%;
+	height:30%;
+
+}
+.box5 {
+	background-color: #5CB9DF;
+	opacity: 80%;
+	width: 70%;
+	height:30%;
+
+}
+

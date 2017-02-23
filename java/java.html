@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href ="java.css" rel="stylesheet">
+</head>
+
+<body>
+	<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+</body>
+
+<script>
+function myFunction(){
+	console.log("in function");
+    var date = prompt("Please enter today's date", "Feb 02");
+    var person = "May";
+    var fortune = " You will meet a true friend.";
+     if (date != null) {
+    	document.getElementById("demo").innerHTML = "Hi " + person + "! " + "This is your fortune: " + fortune +
+    	" Today " + date + " will be your best day of the year!";
+    }
+
+}
+</script>
+</html>

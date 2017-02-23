@@ -1,0 +1,110 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* For width smaller than 400px: */
+body {
+    background-image: url('background copy.png'); 
+    width:100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #CADBFE
+}
+
+
+.nabox {
+    width: 180px;
+    height: 52px;
+    border: 2px dashed;
+    border-color: #7D9348;
+    top: 30%;
+    left: 12.5%;
+    position: relative;
+    display: block;
+}
+
+.nabox: hover {
+    background-color: white;
+}
+
+.sabox { 
+    width: 180px;
+    height: 52px;
+    border: 2px dashed;
+    border-color: #57921B;
+    top: 55.2%;
+    left: 20.2%;
+    position: relative;
+    display: block;
+
+}
+.nsabox: hover {
+    background-color: white;
+}
+
+.eubox {
+    width: 105px;
+    height: 35px;
+    border: 2px dashed;
+    border-color: #33D987;
+    top: 10%;
+    left: 45.8%;
+    position: relative;
+    display: block;
+}
+.eubox: hover {
+    background-color: white;
+}
+
+.afbox {
+     width: 105px;
+    height: 30px;
+    border: 2px dashed;
+    border-color: #C4D933;
+    top: 31.5%;
+    left: 48%;
+    position: relative;
+    display: block;
+}
+.afbox: hover {
+    background-color: white;
+}
+
+.asbox {
+    width: 95px;
+    height: 30px;
+    border: 2px dashed;
+    border-color: #40B802;
+    top: 12.5%;
+    left: 69.4%;
+    position: relative;
+    display: block;
+}
+.asbox: hover {
+    background-color: white;
+}
+
+.obox {
+    width: 135px;
+    height: 35px;
+    border: 2px dashed;
+    border-color: #02631B;
+    top: 38.8%;
+    left: 78.6%;
+    position: relative;
+    display: block;
+}
+.obox: hover {
+    background-color: white;
+}
+
+
+
+
+/* For width 400px and larger: */
+/*@media only screen and (min-width: 400px) {
+    body { 
+        background-image: url('background.png'); 
+    }
+}*/
