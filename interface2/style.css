@@ -12,13 +12,13 @@ body {
 h1 {
 	width: 100%;
 	text-align: center;
-	color: #FC3030;
+	color: #FBFBFB;
 	font: bold 80pt Helvetica, sans-serif;}
 
 h2 {
-	font: 24pt Helvetica, sans-serif;
+	font: bold 24pt Helvetica, sans-serif;
 	text-align: center;
-	color: white;
+	color: #DEDCDC;
 
 }
 h3 {
@@ -41,8 +41,17 @@ p {
 	font: bold 20pt georgia, sans-serif;
 	color: black;
 }
-a {
-	text-decoration: none;
+a:link, a:visited {
+    background-color: #FBFBFB;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: #F33C3C;
 }
 .topnav {
   overflow: hidden;
@@ -93,17 +102,21 @@ a {
 	background-color: red;
 	opacity: 80%;
 	width: 70%;
-	height:30%;
-	margin: auto;
-	padding: 15px;
+	height:530px;
+	padding: 10px;
 	text-align: center;
+	position: fixed;
+  top: 20px;
+  left: 50px;
+  margin-top: 120px;
+  margin-left: 180px;
 }
 
 .box2 {
 	background-color: white;
 	opacity: 80%;
-	width: 70%;
-	height:30%;
+	width: 80%;
+	height:230px;
 	margin: auto;
 	padding: 10px;
 	text-align: center;
