@@ -1,0 +1,35 @@
+body
+{
+    background-color: #FD5757;
+}
+h1, p {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: white;
+    text-align: center;
+}
+.container1 {
+    width: 1000px;
+    height: 1000px;
+    padding-left: 18%;
+    padding-top: 3%;
+}
+
+.container2 {
+    width: 1050px;
+    height: 850px;
+    padding-left: 10%;
+    border: 4px solid white;
+    border-radius: 6px;
+}
+
+#div1, #div2, #div3, #div4,
+#div5, #div6, #div7, #div8, 
+#div9, #div10, #div11, #div12, 
+#div13, #div14, #div15, #div16 
+{   width: 200px;
+    height: 200px;
+    padding: 5px;
+    border: 0.5px solid #aaaaaa;
+    display: inline-block; }
+
+
