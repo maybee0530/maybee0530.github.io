@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body onload="comprobarnavegador();">
+	<header>
+		<span class="blink"><h1> Game 1 </h1></span>
+	</header>
+	<p>*</p>
+	<p>
+		Drag the image puzzles in left box and drop in onto right box to complete the image.
+	</p>
+	<p>*</p>
+	
+
+	<section id="outbox">
+		<div id="imgbox" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)">
+			<img id="drag1" src="13.jpg" alt="drag1" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag2" src="2.jpg" alt="drag2" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag4" src="10.jpg" alt="drag4" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag3" src="4.jpg" alt="drag3" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag5" src="12.jpg" alt="drag5" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag6" src="7.jpg" alt="drag6" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag7" src="15.jpg" alt="drag7" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag8" src="8.jpg" alt="drag8" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag9" src="16.jpg" alt="drag9" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag10" src="14.jpg" alt="drag10" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag11" src="1.jpg" alt="drag11" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag12" src="9.jpg" alt="drag12" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag13" src="5.jpg" alt="drag13" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag14" src="3.jpg" alt="drag14" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag15" src="6.jpg" alt="drag15" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+			<img id="drag6" src="11.jpg" alt="drag16" draggable="true" ondragstart="start(event)" ondragend="end(event)" width="98" height="98">
+		</div>
+		<div id="puzzle">
+			<div class="dropbox" id="1" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="2" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="3" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="4" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="5" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="6" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="7" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="8" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="9" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="10" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="11" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="12" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="13" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="14" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="15" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="dropbox" id="16" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+
+		</div>	
+	</section>
+
+	<button class="button" id="myBtn">Hint</button>
+	<button class="button2"><a href="game.html">Next</a></button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Image Hint</h2>
+    </div>
+    <div class="modal-body">
+      <img src="0.jpg" width="400" height="400">
+    </div>
+  </div>
+
+</div>
+	<script src="trial.js">
+</script>
+</body>
+</html>

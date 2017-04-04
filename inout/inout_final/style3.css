@@ -1,0 +1,55 @@
+
+body{
+  background: #FE7D7D;
+}
+@font-face {
+  font-family: 'Electrolize';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+h1,h2{
+    color: white;
+    text-align: center;
+    font-family: 'Electrolize';
+}
+
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Electrolize';
+    font-size: 18px;
+}
+h3 {
+	color: red;
+    text-align: center;
+    font-family: 'Electrolize';
+    font-size: 14px;
+
+}
+
+.blink {
+  animation: blink-animation 3s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+  }
+
+ .container
+ {
+ 	padding-left: 33%
+ }
+
+  td{width:30px;height:30px;color:#FD3957;}
+.b{background:#FD3957;}
+.w{background:#FDF4B9;}
+.w:hover{background:#FBB265;color:#000;font-weight:bold;}

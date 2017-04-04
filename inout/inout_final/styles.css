@@ -1,0 +1,198 @@
+body{
+  background: #FE7D7D;
+}
+@font-face {
+  font-family: 'Electrolize';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+h1,h2{
+    color: white;
+    text-align: center;
+    font-family: 'Electrolize';
+}
+
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Electrolize';
+    font-size: 18px;
+}
+
+.blink {
+  animation: blink-animation 3s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+#outbox {
+	margin: 10px auto;
+	width: 1100px;
+	background: rgba(20,20,20,0.8);
+	box-shadow: 0px 0px 10px  2px #777;
+	color: #ccc;
+	padding: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+
+#imgbox{
+	background: #FE8147;
+	width: 405px;
+	height: 405px;
+	float: left;
+	margin-left: 10px;
+	box-shadow: 0px 0px 10px  2px #FBC4C4;
+}
+
+#puzzle {
+	background: #FE463E;
+	width: 400px;
+	height: 400px;
+	float: right;
+	margin-right: 10px;
+	box-shadow: 0px 0px 10px  2px #FBC4C4;
+}
+.dropbox {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#imgpuzzle img {
+	float: left;
+	padding: 1px;
+	width: 98px;
+	height: 98px;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #FBC4C4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0.9px #999;
+}
+
+.button:hover {background-color: #FE463E;}
+
+.button:active {
+  background-color: #FE463E;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button2 {
+  float: right;
+  padding: 15px 25px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #FBC4C4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0.9px #999;
+}
+
+.button2:hover {background-color: #FE463E;}
+
+.button2:active {
+  background-color: #FE463E;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {
+	text-align: center;
+	padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
