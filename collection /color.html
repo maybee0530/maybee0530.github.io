@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+
+	<!-- content inside the `title` element will display in the browser tab. customize the title to suit your content. -->
+	<title>Collection</title>
+
+	<!-- some styles that reveal how our HTML elements behave -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+</head>
+<body>
+
+<div class="w3-display-container" style="margin-bottom:50px">
+  <img src="background.png" style="width:100%">
+  <div class="w3-display-bottomleft w3-container w3-white w3-hover-black w3-hide-small"
+   style="bottom:75%;opacity:0.7;width:70%">
+  <a href="index.html"><h2><b>TRASH OF A DAY<br>COLLECTION</b></h2>
+</div></a>
+<div class="w3-display-bottomleft w3-container w3-green w3-hover-amber w3-hide-small"
+   style="bottom:40%;opacity:0.7;width:70%">
+  <a href="search/search.html"><h2><b>SEARCH<br>FILTER</b></h2></a>
+</div>
+
+<div class="w3-display-bottomleft w3-container w3-blue w3-hover-orange w3-hide-small"
+   style="bottom:25%;opacity:0.7;width:70%">
+  <a href="color.html"><h2><b>ORGANIZED BY<br>COLOR</b></h2></a>
+</div>
+<div class="w3-display-bottomleft w3-container w3-red w3-hover-amber w3-hide-small"
+   style="bottom:10%;opacity:0.7;width:70%">
+  <a href="type.html"><h2><b>ORGANIZED BY<br>TYPE</b></h2></a>
+</div>
+</div>
+<h1>COLOR OF TRASH</h1>
+<div class="box4">
+  <a href="white.html"><img id="can" src="Images/white.png" width="350px" height="350px"></a>
+  <a href="red.html"><img id="can" src="Images/red.png" width="350px" height="350px"></a>
+  <a href="yellow.html"><img id="can" src="Images/yellow.png" width="350px" height="350px"></a>
+	<a href="green.html"><img id="can" src="Images/green.png" width="350px" height="350px"></a>
+  <a href="blue.html"><img id="can" src="Images/blue.png" width="350px" height="350px"></a>
+  <a href="brown.html"><img id="can" src="Images/brown.png" width="350px" height="350px"></a>
+  </div>
+
+  <script>
+  // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+  
+</script>
+  
+
+
+
+
+
+</body>
+
+<script src="js/underscore.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
